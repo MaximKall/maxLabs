@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>maxLabs</title>
+</head>
+
+<body>
+    <header>
+        <div class="button" onclick="myFunction()">bulb</div>
+        <h1>maxLabs</h1>
+    </header>
+    <div>
+        <div class="container">
+            <h1>libAnalyzer</h1>
+            <p>
+                so text hald bla bla bla
+            </p>
+        </div>
+        <div class="container">
+            <h1>w2w</h1>
+            <p>
+                so text hald bla bla bla
+            </p>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("body-dark");
+        var element = document.getElementById("container");
+        element.classList.toggle("container-dark");
+    }
+</script>
+
+</html>

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    font-size: large;
+}
+
+.body-dark {
+    background-color: black;
+    color: white;
+}
+
+header {
+    margin-left: 2.5svh;
+    margin-right: 2.5svh;
+    padding-top: 1svh;
+    padding-bottom: 1.5svh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: end;
+    height: 7svh;
+}
+
+
+.container {
+    margin-top: 2.5svh;
+    margin-bottom: 2.5svh;
+    margin-left: 2.5svh;
+    margin-right: 2.5svh;
+    padding-top: 1svh;
+    padding-bottom: 1svh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 80svh;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.container-dark {
+    background-color: black;
+}
+
+.button {
+    position: fixed;
+    top: 2.5svh;
+    left: 5svh;
+    width: 7svh;
+    height: 7svh;
+    border-radius: 10px;
+    background: rgba(64, 64, 64, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+footer {
+    height: 100px;
+}
