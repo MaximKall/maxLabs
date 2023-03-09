@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>maxLabs</title>
+</head>
+
+<body>
+    <header>
+        <div class="button"></div>
+        <h1>maxLabs</h1>
+    </header>
+    <div>
+        <div class="container container-light" onclick="location.href='libAnalyzer.html';">
+            <h1>libAnalyzer</h1>
+            <img src="/assets/app_dummy.png" alt="macos app dummy" class="img">
+        </div>
+        <div class=" container container-light">
+            <h1>w2w</h1>
+            <img src="/assets/app_dummy.png" alt="macos app dummy" class="img">
+        </div>
+    </div>
+    <footer>
+        <p>maximilian kallina</p>
+    </footer>
+</body>
+<script>
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        var body = document.body;
+        var containers = document.querySelectorAll(".container-light");
+
+        body.classList.toggle("body-dark");
+
+        for (var i = 0; i < containers.length; i++) {
+            containers[i].classList.toggle("container-dark");
+        }
+    }
+</script>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../home/style.css">
+    <title>maxLabs</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <div class="button"></div>
+        </a>
+        <h1>w2w</h1>
+    </header>
+    <div>
+        <div class="container container-light">
+            <p>
+                if a netflix movie is not available in your country, you can check which country it is available in by
+                using this tool
+            </p>
+            <img src="/assets/app_dummy.png" alt="macos app dummy" class="img">
+            <a>download</a>
+        </div>
+    </div>
+    <footer>
+        <p>maximilian kallina</p>
+    </footer>
+</body>
+<script>
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        var body = document.body;
+        var containers = document.querySelectorAll(".container-light");
+
+        body.classList.toggle("body-dark");
+
+        for (var i = 0; i < containers.length; i++) {
+            containers[i].classList.toggle("container-dark");
+        }
+    }
+</script>
+
+</html>
